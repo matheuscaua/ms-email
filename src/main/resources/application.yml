@@ -5,9 +5,9 @@ spring:
     name: ms-email
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ms_email
+    url: jdbc:mysql://localhost:3306/ms-email
     username: root
-    password: mysql
+    password: root
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
@@ -18,4 +18,7 @@ spring:
     username: mymail@gmail.com
     password: mypassword
     protocol: smtp
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
