@@ -5,7 +5,7 @@ spring:
     name: ms-email
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ms-email
+    url: jdbc:mysql://localhost:3306/msemail
     username: root
     password: root
   jpa:
@@ -15,8 +15,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: mymail@gmail.com
-    password: mypassword
+    username: netero.elder@gmail.com
+    password: Netero@Elderly1920
     protocol: smtp
 eureka:
   client:
