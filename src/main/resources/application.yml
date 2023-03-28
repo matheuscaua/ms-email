@@ -5,9 +5,9 @@ spring:
     name: ms-email
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/msemail
+    url: jdbc:mysql://localhost:3306/email
     username: root
-    password: root
+    password: mysql
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
