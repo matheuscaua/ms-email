@@ -1,7 +1,5 @@
 package com.servico.email.controllers;
-
-import javax.validation.Valid;
-
+import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
