@@ -4,10 +4,10 @@ spring:
   application:
     name: ms-email
   datasource:
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/email
-    username: root
-    password: mysql
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/email
+    username: postgres
+    password: root
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
