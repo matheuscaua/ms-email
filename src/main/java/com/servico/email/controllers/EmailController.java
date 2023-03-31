@@ -17,7 +17,7 @@ public class EmailController {
 	@Autowired
 	private EmailService emailService;
 	
-	@PostMapping("/envio-email")
+	@PostMapping("/enviar-email")
 	public ResponseEntity<EmailModel> enviarEmail(@RequestBody @Valid EmailDTO emailDTO){
 		EmailModel emailModel = new EmailModel();
 		BeanUtils.copyProperties(emailDTO, emailModel);
