@@ -15,10 +15,17 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: netero.elder@gmail.com
-    password: Netero@Elderly1920
+    username: matheuscrp26@gmail.com
+    password: cshtkkxjjbuvlcvl
     protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+mail-support: matheuscrp26@gmail.com
